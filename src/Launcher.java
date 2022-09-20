@@ -3,8 +3,9 @@ public class Launcher {
         System.out.println("Bienvenue !");           
         var scanner = new java.util.Scanner(System.in);
         var input = scanner.nextLine();
-        if (!input.equals("quit")) {
-            System.out.println("unkown command");
+        while (!input.equals("quit")) {
+            System.out.println("Unkown command");
+            input = scanner.nextLine();
         }
         scanner.close();
     }
