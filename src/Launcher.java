@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Launcher {
     public static void main(String[] args) {
-        List<Command> commands = Arrays.asList(new Freq(), new Fibo(), new Quit());
+        List<Command> commands = Arrays.asList(new Freq(), new Fibo(), new Quit(), new Predict());
         System.out.println("Bienvenue !");
         var scanner = new Scanner(System.in);
         var input = scanner.nextLine();
