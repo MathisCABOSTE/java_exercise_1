@@ -15,7 +15,7 @@ public class Launcher {
                 }
             }
             if (!found) {
-                System.out.println("Unkown command");
+                System.out.println("Unknown command");
             }
             input = scanner.nextLine();
             found = false;
